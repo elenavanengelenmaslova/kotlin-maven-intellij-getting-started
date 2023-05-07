@@ -1,0 +1,6 @@
+## Instructions
+
+1. [Prerequisites](instructions/1-prerequisites.adoc)
+2. Creating a Kotlin Project
+3. Setting up Maven
+4. Writing a Kotlin Program
