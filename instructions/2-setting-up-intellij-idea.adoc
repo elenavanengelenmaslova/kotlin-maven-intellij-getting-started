@@ -9,6 +9,8 @@ Open IntelliJ IDEA and configure the Kotlin plugin:
 * Search for *Kotlin* in the search bar
 * Ensure that the Kotlin plugin is installed and up-to-date. If not, install or update it accordingly
 
+NOTE: Keep your Kotlin plugin up-to-date in IntelliJ IDEA to benefit from the latest language features, bug fixes, performance optimizations, and improved tooling support.
+
 === 2.1.2 Apply the Kotlin style guide
 Set up IDE to automatically to apply the Kotlin style guide including code formatting:
 
