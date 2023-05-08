@@ -15,4 +15,5 @@ If you do not have maven installed, install the latest version.
 * On MacOs you can use homebrew: `brew install maven`
 * On Windows,  https://maven.apache.org/download.cgi[download, window="_blank"] latest version,  and install it, see https://maven.apache.org/install.html[installation instructions, window="_blank"].
 
+
 ➡️ link:./2-setting-up-intellij-idea.adoc[2. Setting up IntelliJ IDEA]
