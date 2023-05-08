@@ -55,7 +55,7 @@ To enhance IntelliJ's performance, allocate 8GB of heap memory if your computer 
 image::images/MemorySetting.png[intellij-memory-setting]
 * Click *Save and Restart* for the new setting to take effect.
 
-This allocation of additional memory can help IntelliJ run more smoothly, especially when working on large projects
+This allocation of additional memory can help IntelliJ run more smoothly, especially when working on large projects.
 
 === 2.2.2 Enable Autosave
 Enabling Autosave helps to prevent losing work due to unexpected crashes or power loss:
@@ -71,7 +71,7 @@ For better code readability, install the "Rainbow Brackets" plugin. Increase pro
 * Search for "Rainbow Brackets".
 * Click *Install*.
 * Search for “Key Promoter X”.
-* Click *Install* and then restart IDE to activate new plugins.
+* Click *Install* and then restart IntelliJ IDEA to activate new plugins.
 
 ➡️ link:./3-create-kotlin-project.adoc[3. Creating a Kotlin Project]
 
