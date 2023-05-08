@@ -1,0 +1,6 @@
+= 2. Setting up IntelliJ IDEA
+
+
+➡️ link:./3-create-kotlin-project.adoc[3. Creating a Kotlin Project]
+
+⬅️ link:./1-prerequisites.adoc[1. Prerequisites]
