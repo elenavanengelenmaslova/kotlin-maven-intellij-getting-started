@@ -22,7 +22,7 @@ image::images/ProjectStructure.png[kotlin-project-structure]
 [source,bash]
 ----
 MyKotlinProject
-├───.idea                               # IntelliJ project settings directory
+├───.idea                              # IntelliJ project settings directory
 │
 ├───src
 │   ├───main
