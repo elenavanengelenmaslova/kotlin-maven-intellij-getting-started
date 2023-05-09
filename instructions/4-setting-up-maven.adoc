@@ -36,26 +36,28 @@ Open `pom.xml` and ensure `kotlin.compiler.jvmTarget` has value `17`:
 
 == 4.3 Run maven from command line
 
-1.  Navigate to you project root on command line
-    * Open Windows PowerShell or MacOS terminal
-    * Change directory to the root of your project, e.g. `cd ~/IdeaProjects/MyKotlinProject` (you can use *Tab* key on your keyboard to auto complete)
-2. Build you project from command line by running the following command from command line:
-[source,shell]
-----
-mvn verify
-----
-Inspect the output, check what maven was doing and see if you can understand it. You should see `BUILD SUCCESS` at the end with some build time statistics.
+=== 4.3.1 Navigate to you project root on command line
+    ** Open Windows PowerShell or MacOS terminal
+    ** Change directory to the root of your project, e.g. `cd ~/IdeaProjects/MyKotlinProject` (you can use *Tab* key on your keyboard to auto complete)
+
+=== 4.3.2 Build you project from command line
+Build you project from command line by running the following command from command line:
+    [source,shell]
+    ----
+    mvn verify
+    ----
+    Inspect the output, check what maven was doing and see if you can understand it. You should see `BUILD SUCCESS` at the end with some build time statistics.
 
 image::images/MvnVerifyCommandLine.png[mvn-verify-commandline]
 
-3. Build you project from IntelliJ
-    * In IntelliJ expand *Maven* tab on the right hand side
-    * Expand *consoleApp* > *Lifecycle* in the *Maven* window
-    * Click on *Verify* and press green play button on the toolbar
+=== 4.3.3 Build you project from IntelliJ
+    ** In IntelliJ expand *Maven* tab on the right hand side
+    ** Expand *consoleApp* > *Lifecycle* in the *Maven* window
+    ** Click on *Verify* and press green play button on the toolbar
 
 image::images/RunMavenFromIntelliJ.png[mvn-from-intellij]
 
-You should see the same output in IntelliJ *Run* window as you saw on command line.
+You should see the same output in IntelliJ *Run* window as you saw on command line in the previous section.
 
 ➡️ link:./5-writing-kotlin-program.adoc[5. Writing a Kotlin Program]
 
