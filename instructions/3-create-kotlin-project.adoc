@@ -38,7 +38,7 @@ MyKotlinProject
 │       └───resources                  # Test resource files directory
 │
 │   MyKotlinProject.iml                # IntelliJ project module file
-│   pom.xml                            # Maven configuration file (POM)
+│   pom.xml                            # Maven configuration file also known as the Project Object Model (POM)
 
 ----
 
