@@ -78,7 +78,7 @@ fun main(args: Array<String>) {
 09:43:02.150 [main] WARN Main -- This is a warning message
 09:43:02.150 [main] ERROR Main -- This is an error message
 ```
-== 5.4 Additional supersize
+== 5.4 Additional exercise
 If you have time, do https://www.jetbrains.com/help/idea/create-your-first-kotlin-app.html#write-code[Write code] mercerize from JetBrains.
 
 
