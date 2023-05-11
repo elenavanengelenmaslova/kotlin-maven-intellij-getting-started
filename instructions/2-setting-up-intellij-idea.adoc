@@ -4,7 +4,7 @@
 
 === 2.1.1 Configure the Kotlin plugin
 * Open IntelliJ IDEA
-* If you see a Welcome screen, open an existing project from the list (if you have any) or create a new project (*New Project* button, update project name but keep other defaults, click *Create*)
+* If you see a Welcome screen, open an existing project from the list (if you have any) or create a new project (click *New Project* button, update project name but keep other defaults, click *Create*)
 * Go to *File* > *Settings* (or *IntelliJ IDEA* > *Preferences* on MacOS) > *Plugins*.
 * Search for *Kotlin* in the search bar
 * Ensure that the Kotlin plugin is installed and up-to-date. If not, install or update it accordingly
