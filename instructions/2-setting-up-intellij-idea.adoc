@@ -3,8 +3,8 @@
 == 2.1 Formatting and style
 
 === 2.1.1 Configure the Kotlin plugin
-Open IntelliJ IDEA and configure the Kotlin plugin:
-
+* Open IntelliJ IDEA
+* If you see a Welcome screen, open an existing project from the list (if you have any) or create a new project (*New Project* button, update project name but keep other defaults, click *Create*)
 * Go to *File* > *Settings* (or *IntelliJ IDEA* > *Preferences* on MacOS) > *Plugins*.
 * Search for *Kotlin* in the search bar
 * Ensure that the Kotlin plugin is installed and up-to-date. If not, install or update it accordingly
@@ -54,7 +54,7 @@ To enhance IntelliJ's performance, allocate 8GB of heap memory if your computer 
 * Navigate to *Help* > *Change Memory Settings*.
 * Set the value to 8192 MB (or lower depending on your computer).
 
-image::images/MemorySetting.png[intellij-memory-setting]
+image::images/HeapMemorySetting.png[intellij-memory-setting]
 * Click *Save and Restart* for the new setting to take effect.
 
 This allocation of additional memory can help IntelliJ run more smoothly, especially when working on large projects.
