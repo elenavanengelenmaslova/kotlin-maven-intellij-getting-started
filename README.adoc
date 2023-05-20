@@ -5,3 +5,4 @@
 3. link:./instructions/3-create-kotlin-project.adoc[Creating a Kotlin Project]
 4. link:./instructions/4-setting-up-maven.adoc[Setting up Maven]
 5. link:./instructions/5-writing-kotlin-program.adoc[Writing a Kotlin Program]
+6. link:./instructions/6-small-assignment.adoc[Small Assignment]
