@@ -23,7 +23,7 @@ If you find yourself struggling with the task, remember there is a sample implem
 == 6.1 Create a package
 First let us create a package where our compliment generator will reside.
 
-1. In IntelliJ IDEA, open project you created in link:./3-create-kotlin-project.adoc[step 3] if it is not already open.
+1. In IntelliJ IDEA, open project you created in step <<3.1 Create a new Kotlin Project>>, provided it isn't currently open.
 2. Navigate to *src* > *main* -> *kotlin* folder
 3. Right-click on kotlin folder, and select *New* > *Package*
 4. Enter package name, e.g. `com.example.compliment`, and press *Enter ⏎* key to create a package.
@@ -37,7 +37,7 @@ Now let's create a class that generates random compliments.
 == 6.3 Implement ComplimentGenerator class
 1. Start by defining three immutable variables within the class:
 
-* Firstly, create a Kotlin logger for logging messages, just like you did in section §5.2 .
+* Firstly, create a Kotlin logger for logging messages, just like you did in step <<5.2 Add log lines>> .
 * Next, define a list of `adjectives`, populated with values such as `"Great", "Amazing", "Incredible", "Fantastic", and "Awesome"`.
 * Lastly, establish a list of `subjects`, filled with terms like `"job", "work", "effort", "performance", and "attitude"`.
 
