@@ -4,6 +4,7 @@ In this exercise, you'll be creating a program that generates and outputs five r
 
 Once you've successfully executed your program, the output should resemble the following:
 
+[source]
 ----
 12:06:55.330 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Amazing work
 Compliment: Amazing work

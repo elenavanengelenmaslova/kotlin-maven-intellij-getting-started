@@ -14,9 +14,10 @@ If you do not have maven installed, install the latest version.
 
 * On MacOs you can use https://brew.sh/[homebrew]:
 
-```
+[source]
+----
 brew install maven
-```
+----
 
 * On Windows
     ** https://maven.apache.org/download.cgi[download, window="_blank"] latest version, and install it, see https://maven.apache.org/install.html[installation instructions, window="_blank"].

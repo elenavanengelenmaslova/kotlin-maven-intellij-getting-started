@@ -2,7 +2,7 @@
 
 == 5.1 Add required maven dependencies
 * Open `pom.xml` and find `dependencies` element
-* Add the following dependencies
+* Add the following two dependencies within `<dependencies>` element
 [source,xml]
 ----
     <!-- https://mvnrepository.com/artifact/io.github.microutils/kotlin-logging -->
@@ -72,12 +72,13 @@ fun main(args: Array<String>) {
 
 * You should see additional output in your IntelliJ Run window
 
-```
+[source]
+----
 09:43:02.144 [main] INFO Main -- This is an info message
 09:43:02.150 [main] DEBUG Main -- This is a debug message
 09:43:02.150 [main] WARN Main -- This is a warning message
 09:43:02.150 [main] ERROR Main -- This is an error message
-```
+----
 == 5.4 Additional exercise
 If you have time, do https://www.jetbrains.com/help/idea/create-your-first-kotlin-app.html#write-code[Write code] exercise from JetBrains. Only do the *Write code* section of the exercise, as the rest requires you to have set up Gradle and not Maven.
 

@@ -39,18 +39,21 @@ Open `pom.xml` and ensure `kotlin.compiler.jvmTarget` has value `17`:
 === 4.3.1 Navigate to you project root on command line
     ** Open Windows PowerShell or MacOS terminal
     ** Change directory to the root of your project, e.g.
-```
+
+[source]
+----
 cd ~/IdeaProjects/MyKotlinProject
-```
+----
 
 NOTE: you can use *Tab* key on your keyboard to auto complete
 
 === 4.3.2 Build you project from command line
 Build you project from command line by running the following command from command line:
 
-```
+[source]
+----
 mvn verify
-```
+----
 
 Inspect the output, check what maven was doing and see if you can understand it. You should see `BUILD SUCCESS` at the end with some build time statistics.
 

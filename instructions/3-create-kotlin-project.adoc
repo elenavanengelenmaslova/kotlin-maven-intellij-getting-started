@@ -45,10 +45,12 @@ MyKotlinProject
 
 == 3.3 Run the program
 Try running the main function by either pressing on the green play button on the left size of the function definition, or by right-clicking on `Main.kt` and selecting** Run Main.kt**. You should see output in the console window of IntelliJ:
-```
+
+[source]
+----
 Hello World!
 Program arguments:
-```
+----
 
 Program arguments are empty before we did not supply any.
 
@@ -61,10 +63,11 @@ Let's add some arguments:
 
 You should now see arguments printed to your console:
 
-```
+[source]
+----
 Hello World!
 Program arguments: Hi, there
-```
+----
 
 You can also run the program by clicking green play button next to `Main.kt` on the top toolbar
 
