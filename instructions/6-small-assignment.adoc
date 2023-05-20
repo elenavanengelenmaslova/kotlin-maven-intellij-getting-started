@@ -23,7 +23,7 @@ If you find yourself struggling with the task, remember there is a sample implem
 == 6.1 Create a package
 First let us create a package where our compliment generator will reside.
 
-1. In IntelliJ IDEA, open project you created in step 5 if it is not already open.
+1. In IntelliJ IDEA, open project you created in link:./3-create-kotlin-project.adoc[step 3] if it is not already open.
 2. Navigate to *src* > *main* -> *kotlin* folder
 3. Right-click on kotlin folder, and select *New* > *Package*
 4. Enter package name, e.g. `com.example.compliment` and press Enter ⏎ key to create a package.
