@@ -1,4 +1,4 @@
-= 6. Homework
+= 6. Small Assignment
 
 In this exercise, you'll be creating a program that generates and outputs five random compliments to the console. Additionally, after each compliment is generated, it will be logged at the INFO log level.
 
