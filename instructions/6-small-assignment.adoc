@@ -26,13 +26,13 @@ First let us create a package where our compliment generator will reside.
 1. In IntelliJ IDEA, open project you created in link:./3-create-kotlin-project.adoc[step 3] if it is not already open.
 2. Navigate to *src* > *main* -> *kotlin* folder
 3. Right-click on kotlin folder, and select *New* > *Package*
-4. Enter package name, e.g. `com.example.compliment` and press Enter ⏎ key to create a package.
+4. Enter package name, e.g. `com.example.compliment`, and press *Enter ⏎* key to create a package.
 
 == 6.2 Create ComplimentGenerator class
 Now let's create a class that generates random compliments.
 
 1. Right-click on the newly created package and select *New* > *Kotlin Class / File*
-2. Enter name `ComplimentGenerator` and press Enter ⏎ key to create a class
+2. Enter name `ComplimentGenerator` and press *Enter ⏎* key to create a class
 
 == 6.3 Implement ComplimentGenerator class
 1. Start by defining three immutable variables within the class:
