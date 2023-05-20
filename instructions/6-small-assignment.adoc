@@ -37,7 +37,7 @@ Now let's create a class that generates random compliments.
 == 6.3 Implement ComplimentGenerator class
 1. Start by defining three immutable variables within the class:
 
-* Firstly, create a Kotlin logger for logging messages.
+* Firstly, create a Kotlin logger for logging messages, just like you did in section §5.2 .
 * Next, define a list of `adjectives`, populated with values such as `"Great", "Amazing", "Incredible", "Fantastic", and "Awesome"`.
 * Lastly, establish a list of `subjects`, filled with terms like `"job", "work", "effort", "performance", and "attitude"`.
 

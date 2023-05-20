@@ -1,4 +1,5 @@
 = 5. Writing a Kotlin Program
+:sectanchors:
 
 == 5.1 Add required maven dependencies
 * Open `pom.xml` and find `dependencies` element
