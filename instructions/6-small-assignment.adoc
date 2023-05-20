@@ -18,7 +18,7 @@ Compliment: Awesome work
 Compliment: Fantastic job
 ----
 
-If you find yourself struggling with the task, remember there is a sample implementation that follows a similar structure in Section 6.6. It's there as a resource to guide you, so feel free to refer to it if necessary.
+If you find yourself struggling with the task, remember there is a sample implementation that follows a similar structure in Section 6.7. It's there as a resource to guide you, so feel free to refer to it if necessary.
 
 == 6.1 Create a package
 First let us create a package where our compliment generator will reside.
@@ -81,20 +81,36 @@ Compliment: Fantastic job
 
 Consider the difference between the logging statement and the `println` lines. While they might seem similar, they serve distinct purposes in a software application
 
-== 6.6 Tip: Example program WeatherForecaster
+== 6.6 Add Kdoc comments
+ * *Document the class*: Position your cursor just above the class definition line (`class ComplimentGenerator {`). Press enter to create a new line and start your KDoc comment with `/**`. As you hit enter, IntelliJ IDEA will automatically complete it for you. Now, describe the purpose and functionality of the `ComplimentGenerator` class.
+ * *Document the function*: Position your cursor just above the `generate()` function definition. Start a new KDoc comment and describe what this function does. Mention that it generates a random compliment, logs it, and returns the compliment.
+ * *Document the main function*: In a similar way, add a KDoc comment above the `main()` function. Explain that this is the entry point of the application, and it creates an instance of `ComplimentGenerator`, then generates and prints a compliment 5 times.
+
+== 6.7 Tip: Example program WeatherForecaster
 
 As a *tip* for those who might be finding it challenging, consider a similar program, `WeatherForecaster`, which generates a random weather forecast seven times each time it's executed. It's analogous to the `ComplimentGenerator` application we're creating.
 
 [source,kotlin]
 ----
-package com.example.whether.generator
+package com.example.whether
 
 import mu.KotlinLogging
 
+/**
+ * A simple weather forecaster that randomly generates weather conditions.
+ */
 class WeatherForecaster {
     private val logger = KotlinLogging.logger {}
+
+    // List of possible weather conditions.
     private val conditions = listOf("Sunny", "Rainy", "Cloudy", "Windy", "Snowy")
 
+    /**
+     * Generates a random weather condition.
+     * Logs the generated forecast.
+     *
+     * @return a string representing the forecasted weather condition.
+     */
     fun forecast(): String {
         val condition = conditions.random()
         logger.info("Forecast: $condition")
@@ -102,6 +118,10 @@ class WeatherForecaster {
     }
 }
 
+/**
+ * The entry point of the application.
+ * Creates a WeatherForecaster instance and prints the forecast 7 times.
+ */
 fun main() {
     val forecaster = WeatherForecaster()
     repeat(7) {
@@ -110,6 +130,5 @@ fun main() {
 }
 
 ----
-
 
 ⬅️ link:./5-writing-kotlin-program.adoc[5. Writing a Kotlin Program ]
