@@ -66,7 +66,7 @@ TIP: Kotlin provides a function `repeat(times: Int) { ... }` that allows you to 
 
 == 6.5 Execute the program
 
-Execute our newly created `ComplementGenerator` by clicking the green play button next to the main function, or by right-clicking on *ComplimentGenerator.kt* file and selecting *Run ComplimentGenerator.kt*
+Execute our newly created `ComplimentGenerator` by clicking the green play button next to the main function, or by right-clicking on *ComplimentGenerator.kt* file and selecting *Run ComplimentGenerator.kt*
 
 You should see output similar to this:
 
