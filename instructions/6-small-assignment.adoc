@@ -83,7 +83,7 @@ Consider the difference between the logging statement and the `println` lines. W
 
 == 6.6 Tip: Example program WeatherForecaster
 
-As a tip for those who might be finding it challenging, consider a similar program, `WeatherForecaster`, which generates a random weather forecast seven times each time it's executed. It's analogous to the `ComplimentGenerator` application we're creating.
+As a *tip* for those who might be finding it challenging, consider a similar program, `WeatherForecaster`, which generates a random weather forecast seven times each time it's executed. It's analogous to the `ComplimentGenerator` application we're creating.
 
 [source,kotlin]
 ----
