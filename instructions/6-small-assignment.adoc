@@ -112,4 +112,4 @@ fun main() {
 ----
 
 
-⬅️ link:./5-writing-kotlin-program[5. Writing a Kotlin Program ]
+⬅️ link:./5-writing-kotlin-program.adoc[5. Writing a Kotlin Program ]
