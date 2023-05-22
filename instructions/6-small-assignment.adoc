@@ -18,7 +18,7 @@ Compliment: Awesome work
 Compliment: Fantastic job
 ----
 
-If you find yourself struggling with the task, remember there is a sample implementation that follows a similar structure in Section 6.7. It's there as a resource to guide you, so feel free to refer to it if necessary.
+If you find yourself struggling with the task, remember there is a sample implementation that follows a similar structure in Section 6.7. It's there as a resource to guide you, so feel free to refer to it if necessary. Let's get started!
 
 == 6.1 Create a package
 First let us create a package where our compliment generator will reside.
