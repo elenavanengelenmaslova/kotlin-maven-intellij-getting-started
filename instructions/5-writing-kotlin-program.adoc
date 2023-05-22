@@ -82,7 +82,7 @@ fun main(args: Array<String>) {
 ----
 == 5.4 Solution
 
-Your Kotlin program should look similar to this: https://github.com/elenavanengelenmaslova/kotlin-maven-intellij-getting-started/blob/main/src/main/kotlin/Main.kt[Main.kt], with the following Maven https://github.com/elenavanengelenmaslova/kotlin-maven-intellij-getting-started/blob/main/pom.xml[pom.xml]
+Your Kotlin program should look similar to this: https://github.com/elenavanengelenmaslova/kotlin-maven-intellij-getting-started/blob/main/src/main/kotlin/Main.kt[Main.kt], with the following Maven https://github.com/elenavanengelenmaslova/kotlin-maven-intellij-getting-started/blob/main/pom.xml[pom.xml].
 
 
 == 5.5 Additional exercise
