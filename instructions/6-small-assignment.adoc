@@ -56,7 +56,7 @@ Next, let's establish the entry point of our program by adding the `main()` func
 
 image::images/CreateMainAutoComplete.png[create-main-auto-complete]
 
-* Select the first option as our main function does not need command line parameters. This will generate an empty `main()` function.
+* Select the first option as our main function does not need command line arguments. This will generate an empty `main()` function.
 
 * Inside the `main()` function, create an instance of the `ComplimentGenerator` class. This is essentially creating our compliment generator.
 
