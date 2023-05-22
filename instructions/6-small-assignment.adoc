@@ -86,7 +86,7 @@ Compliment: Fantastic job
 Consider the difference between the logging statement and the `println` lines. While they might seem similar, they serve distinct purposes in a software application
 
 == 6.6 Add Kdoc comments
- * *Document the class*: Position your cursor just above the class definition line (`class ComplimentGenerator {`). Press enter to create a new line and start your KDoc comment with `/**`. As you hit enter, IntelliJ IDEA will automatically complete it for you. Now, describe the purpose and functionality of the `ComplimentGenerator` class.
+ * *Document the class*: Position your cursor just above the class definition line (`class ComplimentGenerator {`). Press *Enter ⏎* key to create a new line and start your KDoc comment with `/**`. As you hit *Enter ⏎*, IntelliJ IDEA will automatically complete it for you. Now, describe the purpose and functionality of the `ComplimentGenerator` class.
  * *Document the function*: Position your cursor just above the `generate()` function definition. Start a new KDoc comment and describe what this function does. Mention that it generates a random compliment, logs it, and returns the compliment.
  * *Document the main function*: In a similar way, add a KDoc comment above the `main()` function. Explain that this is the entry point of the application, and it creates an instance of `ComplimentGenerator`, then generates and prints a compliment 5 times.
 
