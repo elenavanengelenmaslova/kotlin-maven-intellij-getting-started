@@ -96,10 +96,10 @@ Position your cursor just above the class definition line (`class ComplimentGene
 As you hit *Enter ⏎*, IntelliJ IDEA will automatically complete it for you. Now, describe the purpose and functionality of the `ComplimentGenerator` class.
 
 == 6.6.2 Document the function
-Position your cursor just above the `generate()` function definition. Start a new KDoc comment and describe what this function does. Mention that it generates a random compliment, logs it, and returns the compliment.
+Position your cursor just above the `generate()` function definition. Start a new KDoc comment as you did for the class definition, and describe what this function does. Mention that it generates and returns a random compliment.
 
 == 6.6.3 Document the main function
-In a similar way, add a KDoc comment above the `main()` function. Explain that this is the entry point of the application, and it creates an instance of `ComplimentGenerator`, then generates and prints a compliment 5 times.
+In a similar way, add a KDoc comment above the `main()` function. Explain that this application generates and prints a compliment 5 times.
 
 == 6.7 Tip: Example program WeatherForecaster
 
