@@ -82,7 +82,8 @@ fun main(args: Array<String>) {
 ----
 == 5.4 Solution
 
-Your program should look similar to this:
+Your Kotlin program should look similar to this: https://github.com/elenavanengelenmaslova/kotlin-maven-intellij-getting-started/blob/main/src/main/kotlin/Main.kt[Main.kt], with the following Maven https://github.com/elenavanengelenmaslova/kotlin-maven-intellij-getting-started/blob/main/pom.xml[pom.xml]
+
 
 == 5.5 Additional exercise
 If you have time, do https://www.jetbrains.com/help/idea/create-your-first-kotlin-app.html#write-code[Write code] exercise from JetBrains. Only do the *Write code* section of the exercise, as the rest requires you to have set up Gradle and not Maven.
