@@ -41,7 +41,7 @@ Now let's create a class that generates random compliments.
 * Next, define a list of `adjectives`, populated with values such as `"Great", "Amazing", "Incredible", "Fantastic", "Awesome"`.
 * Lastly, establish a list of `subjects`, filled with terms like `"job", "work", "effort", "performance", "attitude"`.
 
-2. Proceed to build a function designed to assemble and return a unique compliment. This function should create the compliment by selecting one random item from each of your `adjectives` and `subjects` lists.
+2. Proceed to build a member function called `generate()` designed to assemble and return a unique compliment. This function should create the compliment by selecting one random item from each of your `adjectives` and `subjects` lists.
 
 3. Within this function, before you return the compliment, insert a log statement. This statement should log the freshly generated compliment in the following format: `Generated compliment: $compliment`.
 
