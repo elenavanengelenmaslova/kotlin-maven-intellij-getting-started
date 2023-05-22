@@ -111,11 +111,12 @@ package com.example.whether
 
 import mu.KotlinLogging
 
+private val logger = KotlinLogging.logger {}
+
 /**
  * A simple weather forecaster that randomly generates weather conditions.
  */
 class WeatherForecaster {
-    private val logger = KotlinLogging.logger {}
 
     // List of possible weather conditions.
     private val conditions = listOf("Sunny", "Rainy", "Cloudy", "Windy", "Snowy")
