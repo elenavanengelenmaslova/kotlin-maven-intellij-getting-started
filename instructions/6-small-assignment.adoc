@@ -6,15 +6,15 @@ Once you've successfully executed your program, the output should resemble the f
 
 [source]
 ----
-12:06:55.330 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Amazing work
+12:06:55.330 [main] INFO nl.azl.compliment.ComplimentGenerator -- Generated compliment: Amazing work
 Compliment: Amazing work
-12:06:55.337 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Incredible performance
+12:06:55.337 [main] INFO nl.azl.compliment.ComplimentGenerator -- Generated compliment: Incredible performance
 Compliment: Incredible performance
-12:06:55.337 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Great work
+12:06:55.337 [main] INFO nl.azl.compliment.ComplimentGenerator -- Generated compliment: Great work
 Compliment: Great work
-12:06:55.337 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Awesome work
+12:06:55.337 [main] INFO nl.azl.compliment.ComplimentGenerator -- Generated compliment: Awesome work
 Compliment: Awesome work
-12:06:55.337 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Fantastic job
+12:06:55.337 [main] INFO nl.azl.compliment.ComplimentGenerator -- Generated compliment: Fantastic job
 Compliment: Fantastic job
 ----
 
@@ -71,15 +71,15 @@ Execute our newly created `ComplimentGenerator` by clicking the green play butto
 You should see output similar to this:
 
 ----
-12:06:55.330 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Amazing work
+12:06:55.330 [main] INFO nl.azl.compliment.ComplimentGenerator -- Generated compliment: Amazing work
 Compliment: Amazing work
-12:06:55.337 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Incredible performance
+12:06:55.337 [main] INFO nl.azl.compliment.ComplimentGenerator -- Generated compliment: Incredible performance
 Compliment: Incredible performance
-12:06:55.337 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Great work
+12:06:55.337 [main] INFO nl.azl.compliment.ComplimentGenerator -- Generated compliment: Great work
 Compliment: Great work
-12:06:55.337 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Awesome work
+12:06:55.337 [main] INFO nl.azl.compliment.ComplimentGenerator -- Generated compliment: Awesome work
 Compliment: Awesome work
-12:06:55.337 [main] INFO nl.azl.compliment.generator.ComplimentGenerator -- Generated compliment: Fantastic job
+12:06:55.337 [main] INFO nl.azl.compliment.ComplimentGenerator -- Generated compliment: Fantastic job
 Compliment: Fantastic job
 ----
 
