@@ -86,7 +86,7 @@ Compliment: Fantastic job
 Consider the difference between the logging statement and the `println` lines. While they might seem similar, they serve distinct purposes in a software application
 
 == 6.6 Add Kdoc comments
-https://kotlinlang.org/docs/kotlin-doc.html[KDoc] is the Kotlin documentation language for adding documentation to your code.
+https://kotlinlang.org/docs/kotlin-doc.html[KDoc] is the Kotlin documentation language for adding documentation to your code. We shall cover this in more depth in the upcoming training, including how to generate KDoc documentation using Dokka. For now lets get familiar with adding KDoc documentation on our code for public and internal members.
 
 == 6.6.1 Document the class
 Position your cursor just above the class definition line (`class ComplimentGenerator {`). Press *Enter ⏎* key to create a new line and start your KDoc comment with:
