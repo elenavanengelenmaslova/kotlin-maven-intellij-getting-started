@@ -2,12 +2,13 @@ package com.example.compliment
 
 import mu.KotlinLogging
 
+private val logger = KotlinLogging.logger {}
+
 /**
  * This class is responsible for generating random compliments.
  * A compliment is a combination of a randomly selected adjective and subject.
  */
 class ComplimentGenerator {
-    private val logger = KotlinLogging.logger {}
 
     // Lists of possible adjectives and subjects to use in compliments
     private val adjectives = listOf("Great", "Amazing", "Incredible", "Fantastic", "Awesome")
